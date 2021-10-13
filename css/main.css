@@ -1,0 +1,26 @@
+.todo__delete-btn {
+  display: block;
+  margin-left: auto;
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  font-size: 15px;
+}
+
+.todo__checkbox {
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+}
+
+.todo__input {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.todo__submit-btn {
+  width: 80px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(48, 193, 250);
+  color: #fff;
+}

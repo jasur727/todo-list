@@ -60,7 +60,7 @@ function renderTodos(arr, node) {
 		newLi.textContent = todo.title;
 		newButton.textContent = 'Delete';
 
-		newLi.setAttribute('class','list-unstyled bg-info mb-3 p-2 rounded justify-content-between');
+		newLi.setAttribute('class','list-unstyled bg-info mb-3 p-2 rounded d-flex align-items-center');
 		newCheckbox.type = 'checkbox';
 		newButton.classList.add('todo__delete-btn');
 		newCheckbox.classList.add('todo__checkbox');
